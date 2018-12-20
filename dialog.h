@@ -16,7 +16,7 @@ class Dialog : public QDialog
     Q_OBJECT
 
 public:
-    Dialog();
+    Dialog();//timer bayad kenar sazande bashe
     QTimer *timer;
 
     explicit Dialog(QWidget *parent = nullptr);
